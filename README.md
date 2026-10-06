@@ -1,16 +1,53 @@
-# React + Vite
+# 🛍️ ToyVerse / TrendyZone - E-Commerce Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and feature-rich full-stack style e-commerce web application built for browsing toys, custom keychains, gifts, trendy t-shirts, and personalized photo frames.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Category-wise Filtering:** Easily browse products by categories like Toys, Keychains, Gifts, T-Shirts, and Photo Frames.
+- **Dynamic Product Catalog:** Structured data with detailed descriptions, discounts, ratings, and pricing.
+- **Interactive UI/UX:** Styled using Tailwind CSS for a sleek, responsive, and mobile-friendly design.
+- **Quick Actions:** Integrated WhatsApp ordering and interactive product modals.
+- **Organized Asset Management:** Category-wise segregated image folder structure for clean maintenance.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Library:** React.js (via Vite)
+- **Styling:** Tailwind CSS
+- **Icons & Animations:** Lucide React, Framer Motion
+- **Build Tool:** Vite
+
+---
+
+## 📂 Project Structure
+
+```text
+trendyzone/
+│
+├── public/
+│   └── images/
+│       ├── toys/
+│       ├── keychains/
+│       ├── gifts/
+│       ├── tshirts/
+│       └── frames/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── config/
+│   │   └── whatsapp.js
+│   ├── data/
+│   │   └── products.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
